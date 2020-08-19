@@ -13,7 +13,7 @@ pipeline {
            stage('write') {
              steps {
                 script {
-                def map=['name':'TestFile]
+                def map=['name':'TestFile']
                 map.server = [['name': 'myserver', 'host': 'myhost.world.com', 'scheme': 'https'],['name': 'myserver2', 'host': 'myhost.world.2com', 'scheme': 'https']]
                 writeYaml file: 'datas.yaml', data: map
                 def read = readYaml file: 'datas.yaml'
