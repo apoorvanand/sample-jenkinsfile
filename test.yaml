@@ -1,0 +1,5 @@
+name: TestFile
+servers:
+- name: myserver
+  host: myhost.world.com
+  scheme: https
