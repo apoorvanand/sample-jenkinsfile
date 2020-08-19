@@ -6,7 +6,6 @@ pipeline {
             steps {
                 script {
                 def datas = readYaml text: """
-            name: TestFile
             servers:
                 - name: myserver
                   host: myhost.world.com
