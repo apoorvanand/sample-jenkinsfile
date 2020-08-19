@@ -5,14 +5,10 @@ pipeline {
         stage('read') {
             steps {
                 script {
-                def datas = readYaml text: """
-            servers:
-                - name: myserver
-                  host: myhost.world.com
-                  scheme: https
-            """
-                assert datas.servers.name =="myserver"
+                def datas = readYaml (file: 'test.yaml')
+                
                 }
+                echo datas.name.toString()
             }
         }
     }
