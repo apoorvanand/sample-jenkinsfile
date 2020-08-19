@@ -5,10 +5,9 @@ pipeline {
         stage('read') {
             steps {
                 script {
-                def datas = readYaml (file: 'test.yaml')
-                
-                }
+                def datas = readYaml (file: './test.yaml')
                 echo datas.name.toString()
+                }
             }
         }
     }
