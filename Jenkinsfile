@@ -10,5 +10,15 @@ pipeline {
                 }
             }
         }
-    }
+           stage('write') {
+            steps {
+                script {
+                def datas=['name':'TestFile]
+                datas.server = [['name': 'myserver', 'host': 'myhost.world.com', 'scheme': 'https'],['name': 'myserver2', 'host': 'myhost.world.2com', 'scheme': 'https']]
+                writeYaml file: 'datas.yaml', data: amap
+                def read = readYaml file: 'datas.yaml'
+                }
+            }
+        }
+    }           
 }
