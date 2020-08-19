@@ -3,7 +3,8 @@ pipeline {
 
     stages {
         stage('read') {
-            steps{
+            steps {
+                script {
                 def datas = readYaml text: """
             name: TestFile
             servers:
@@ -12,6 +13,7 @@ pipeline {
                   scheme: https
             """
                 assert datas.servers.name =="myserver"
+                }
             }
         }
     }
