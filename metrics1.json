@@ -1,0 +1,76 @@
+{
+  "totalCount": 2,
+  "nextPageKey": null,
+  "result": [
+    {
+      "metricId": "builtin:host.cpu.idle",
+      "data": [
+        {
+          "dimensions": [
+            "HOST-0990886B7D39FE29"
+          ],
+          "timestamps": [
+            1589456100000,
+            1589456160000,
+            1589456220000
+          ],
+          "values": [
+            81.0,
+            81.0,
+            79.0
+          ]
+        },
+        {
+          "dimensions": [
+            "HOST-0956C3557E9109C1"
+          ],
+          "timestamps": [
+            1589456100000,
+            1589456160000,
+            1589456220000
+          ],
+          "values": [
+            81.0,
+            79.0,
+            78.0
+          ]
+        }
+      ]
+    },
+    {
+      "metricId": "builtin:host.cpu.usage",
+      "data": [
+        {
+          "dimensions": [
+            "HOST-0990886B7D39FE29"
+          ],
+          "timestamps": [
+            1589456100000,
+            1589456160000,
+            1589456220000
+          ],
+          "values": [
+            19.0,
+            19.0,
+            21.0
+          ]
+        },
+        {
+          "dimensions": [
+            "HOST-0956C3557E9109C1"
+          ],
+          "timestamps": [
+            1589456100000,
+            1589456160000,
+            1589456220000
+          ],
+          "values": [
+            19.0,
+            21.0,
+            22.0
+          ]
+        }
+      ]
+    }
+  ]
+}
