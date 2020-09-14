@@ -1,0 +1,54 @@
+{
+  "timeseriesId": "com.dynatrace.builtin:app.actionspersession",
+  "displayName": "Actions per session",
+  "dimensions": [
+    "APPLICATION"
+  ],
+  "unit": "PerMinute (count/min)",
+  "detailedSource": "Web application",
+  "types": [],
+  "dataResult": {
+    "dataPoints": {
+      "APPLICATION-85A7CC": [
+        [
+          1534921560000,
+          1.75
+        ],
+        [
+          1534921620000,
+          2
+        ],
+        [
+          1534921680000,
+          2
+        ]
+      ],
+      "APPLICATION-8E41C8": [
+        [
+          1534921560000,
+          4
+        ],
+        [
+          1534921620000,
+          7
+        ],
+        [
+          1534921680000,
+          4
+        ]
+      ]
+    },
+    "unit": "PerMinute (count/min)",
+    "resolutionInMillisUTC": 60000,
+    "aggregationType": "AVG",
+    "entities": {
+      "APPLICATION-85A7CC": "Permanent Docker",
+      "APPLICATION-8E41C8": "easyTravel AMP"
+    },
+    "timeseriesId": "com.dynatrace.builtin:app.actionspersession"
+  },
+  "aggregationTypes": [
+    "AVG"
+  ],
+  "filter": "BUILTIN"
+}
