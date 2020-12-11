@@ -4,3 +4,7 @@
 
 
 https://apoorwanand.s3.us-east-1.amazonaws.com/spring-petclinic.zip
+
+
+https://dzone.com/articles/code-coverage-report-generator-for-java-projects-a
+https://dzone.com/articles/reporting-code-coverage-using-maven-and-jacoco-plu
