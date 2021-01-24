@@ -10,3 +10,11 @@ https://dzone.com/articles/code-coverage-report-generator-for-java-projects-a
 https://dzone.com/articles/reporting-code-coverage-using-maven-and-jacoco-plu
 
 https://apoorwanand.s3.amazonaws.com/jacoco-codecoverge-Demo.zip
+
+server.tomcat.threads.max=800
+server.tomcat.accept-count=300
+server.tomcat.max-connections=10000
+#server.tomcat.max-threads=200
+server.tomcat.min-spare-threads=300
+
+https://howtodoinjava.com/spring-boot2/embedded-tomcat-configuration/
