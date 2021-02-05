@@ -19,3 +19,7 @@ server.tomcat.max-connections=10000
 server.tomcat.min-spare-threads=300
 
 https://howtodoinjava.com/spring-boot2/embedded-tomcat-configuration/
+
+
+
+https://learn.akamai.com/en-us/webhelp/netstorage/netstorage-http-api-developer-guide/GUID-BC01774E-121C-4F64-AC54-D0050FA4983C.html
